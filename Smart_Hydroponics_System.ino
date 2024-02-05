@@ -434,7 +434,7 @@ void cooler_cont()//coller contolling funtion
       lcd.print(h);
      }
  
-/////////BLYNK////////////
+/////////SENDING DATA TO BLYNK SERVER////////////
 void data_sent()            //funtion to send the sensor data to blynk cloude
  {
   Blynk.virtualWrite(V1, h);//send the humudity value to the vertual pin v1 of the blynk server
